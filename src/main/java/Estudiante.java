@@ -41,7 +41,7 @@ public class Estudiante {
     public List<Respuesta> responder(List<Pregunta> preguntas) {
         List<Respuesta> respuestas = new ArrayList<>();
         for (Pregunta pregunta : preguntas) {
-            Respuesta respuesta = new Respuesta(pregunta, "Respuesta del estudiante.");
+            Respuesta respuesta = new Respuesta('a');
             respuestas.add(respuesta);
         }
         return respuestas;
