@@ -49,5 +49,10 @@ public class Texto {
     public void setPreguntas(List<Pregunta> preguntas) {
         this.preguntas = preguntas;
     }
+    
+    public boolean contienePalabraClave(String pClave) {
+        ArrayList<String> composicion;
+        return false;
+    }
 }
 
